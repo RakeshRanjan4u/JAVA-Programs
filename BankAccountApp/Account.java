@@ -18,7 +18,7 @@ public abstract class Account implements IBaseRate {
 		this.sSN=sSN;
 		balance=initDeposit;
 
-		System.out.println("NAME: "+name+"SSN:= "+sSN+"BALANCE= "+ balance);
+		//System.out.println("NAME: "+name+"SSN:= "+sSN+"BALANCE= "+ balance);
 	
 		//Set Account Number
 		accountNumber=setAccountNumber();
@@ -33,6 +33,12 @@ public abstract class Account implements IBaseRate {
 	}
 	
 	//List common methods
-	
+	public void showInfo(){
+		System.out.println( 
+				"NAME: "+ name +
+				"\nACCOUNT NUMBER: "+accountNumber+
+				"\nBALANCE: "+balance
+				);
+	}
 	
 }

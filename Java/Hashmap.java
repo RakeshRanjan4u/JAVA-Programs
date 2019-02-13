@@ -1,3 +1,4 @@
+package Java;
 import java.util.*;
 class Hashmap
 {
@@ -12,7 +13,7 @@ class Hashmap
 		
 		people.remove("Mama");
 		
-		for( String person : people.KeySet() )
+		for( String person : people.keySet() )
 			System.out.println(person);
 		
 	}

@@ -1,3 +1,4 @@
+package Java;
 interface animal1
 {
 	String color="Brownish";

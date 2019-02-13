@@ -1,4 +1,5 @@
-package p1;
+package Java;
+
 class Student
 {
 	String Name;
